@@ -1,5 +1,13 @@
-import '@/styles/globals.css'
+import React from 'react';
+import ThemeContextProvider from '../contexts/theme-context';
+import '../styles/globals.css';
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const App = ({ Component, pageProps }) => {
+  return (
+    <ThemeContextProvider>
+      <Component {...pageProps} />
+    </ThemeContextProvider>
+  );
+};
+
+export default App;
