@@ -7,9 +7,9 @@ import {
     FaTwitter
 } from 'react-icons/fa';
 import Typed from 'react-typed';
-import { ThemeContext } from '../../contexts/theme-context';
-import { headerData } from '../../data/header-data';
-import { socialsData } from '../../data/socials-data';
+import { ThemeContext } from '@/contexts/theme-context';
+import { headerData } from '@/data/header-data';
+import { socialsData } from '@/data/socials-data';
 import styles from '../../styles/landing.module.css';
 import Link from '../link';
 

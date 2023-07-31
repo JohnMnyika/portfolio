@@ -1,10 +1,10 @@
 import { Container } from '@material-ui/core';
 import React, { useContext } from 'react';
 import codings from '../../assets/lottie/coding.json';
-import { ThemeContext } from '../../contexts/theme-context';
-import { aboutData } from '../../data/about-data';
+import { ThemeContext } from '@/contexts/theme-context';
+import { aboutData } from '@/data/about-data';
 import styles from '../../styles/about.module.css';
-import AnimationLottie from '../Animation';
+import AnimationLottie from '../animation';
 
 
 function About() {

@@ -4,8 +4,8 @@ import React, { useContext, useState } from 'react';
 import { AiOutlineHome } from "react-icons/ai";
 import { SingleBlog } from '../../components';
 import Link from '../../components/link';
-import { ThemeContext } from '../../contexts/theme-context';
-import { blogData } from '../../data/blogData';
+import { ThemeContext } from '@/contexts/theme-context';
+import { blogData } from '@/data/blog-data';
 
 function BlogPage() {
     const [search, setSearch] = useState('')
