@@ -19,9 +19,9 @@ E
 src/data/blog-data.js,7/8/78d82f7f373d64f53b5fd28e224be5e7c5c04504
 G
 src/pages/blog/index.js,e/5/e593f628397fab9f6555edc59340d89c95d1ecf9
-M
-src/components/about/about.js,e/3/e33e2646603ed05e4056e231473f89ec343a5e92
 Q
 !src/components/landing/landing.js,3/f/3f2ddb64a90d4739517f7ad384e51dc1f6d15674
+M
+src/components/about/about.js,e/3/e33e2646603ed05e4056e231473f89ec343a5e92
 >
 next.config.js,8/1/811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
